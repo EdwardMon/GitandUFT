@@ -13,3 +13,4 @@ Browser("Advantage Shopping").Page("Advantage Shopping").Link("HOME").Click @@ s
 Browser("Advantage Shopping").Page("Advantage Shopping").Sync
 wait 2
 Browser("Advantage Shopping").CloseAllTabs @@ hightlight id_;_396622_;_script infofile_;_ZIP::ssf11.xml_;_
+Reporter.ReportEvent micDone, "Test Completed", "The test has finished"
